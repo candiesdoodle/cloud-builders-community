@@ -1,4 +1,6 @@
 steps:
 - name: 'gcr.io/$PROJECT_ID/docker-compose'
   args: ['up']
+  dir: 'docker-compose/examples/hello-world'
+
 tags: ['cloud-builders-community']
