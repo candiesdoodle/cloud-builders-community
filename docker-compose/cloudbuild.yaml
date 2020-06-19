@@ -14,7 +14,7 @@ steps:
   - 'gcr.io/$PROJECT_ID/docker-compose:${_DOCKER_COMPOSE_VERSION}'
   - '.'
   - '-f'
-  - '/docker-compose/Dockerfile'
+  - 'https://github.com/candiesdoodle/cloud-builders-community/docker-compose/Dockerfile'
 - name: 'gcr.io/$PROJECT_ID/docker-compose'
   args: ['version']
 
